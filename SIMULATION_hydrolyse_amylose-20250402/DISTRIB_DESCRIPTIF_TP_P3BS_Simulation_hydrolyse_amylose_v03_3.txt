@@ -1,0 +1,77 @@
+
+================================================================================
+
+SIMULATION DE L'HYDROLYSE DE L'AMYLOSE CATALYSEE PAR L'AMYLASE
+
+================================================================================
+ORGANISATION : 3 séances de 4h, par groupes.
+
+
+Axes des investigations:
+
+1) Découverte des principes de simulation discrète centrée objets, pour étudier la diffusion des molécules et leurs réactions. Modélisation de la dégradation d'un polymère: cas de l'hydrolyse de l'amylose catalysée par l'amylase.
+
+2) Développement d'un simulateur à partir d'un code fourni. Mise en oeuvre sur quelques molécules (1 à 10 polymères de tailles 2 à 9).
+
+3) Utilisation du simulateur à plus grande échelle (100 à 1000 polymères de tailles 100 à 500).
+
+4) Interprétation physico-chimique des résultats lorsque l'on modifie le modèle de simulation et/ou les conditions initiales.
+
+================================================================================
+ETAPES :
+
+1 Compréhension et tests du programme fourni de simulation de déplacement de molécules.
+
+
+2 Simulation de réactions chimiques
+
+2.1 Concevoir et implanter la simulation des réactions. Tester sur une petite grille avec peu de molécules.
+
+2.2 Calculer des statistiques décrivant la distribution des tailles de polymères (amylose) en cours de simulation (par exemple la taille moyenne des polymères ou un histogramme des tailles). Tester avec peu de molécules.
+
+
+3 Simulations plus grandes
+
+3.1 Réaliser des simulations plus longues, avec une grille plus grande et plus de molécules. Ne plus afficher la grille mais afficher seulement les statistiques décrivant la distribution des tailles de polymères.
+
+3.2 Définir un seuil de dégradation souhaité du polymère (par exemple: au moins 95% de la masse de polymères initiale se trouvant dégradée sous forme de monomères, ou dimères ou trimères). Afficher le nombre d'itérations de simulation nécessaires pour atteindre ce seuil.
+
+3.3 Tracer la/les courbe(s) montrant l'évolution de la distribution de la taille des polymères dans le temps.
+Optionnel: Si les simulations sont longues, envisager de stocker des données dans un ou plusieurs fichiers en cours de simulation. Ceci afin de pouvoir ensuite compléter les calculs statistiques et les visualisations sans avoir à relancer les simulations.
+
+
+4 Etude de différentes simulations
+
+Interpréter les différences obtenues lorsque l'on change le modèle de simulation ou les conditions initiales. Selon votre avancement, vous étudierez un ou plusieurs changements.
+
+Exemple de changements pouvant être considérés (vous pouvez également en proposer d'autres):
+- point de découpage du polymère selon le type d'enzymes: découpage selon tirage uniforme, ou plutôt au milieu, ou plutôt vers les extrémités.
+- polymères distribués au départ de façon uniforme ou de façon compacte au fond.
+- changement de la diffusion des polymères selon leurs tailles.
+- étudier si il est possible de créer des co-localisations en plaçant des zones contenant un second solvant (non miscible avec le premier) dans lequel la vitesse de diffusion des enzymes et des polymères est plus faible.
+
+Evaluer l'impact de ces changements sur la dégradation du polymère, notamment le nombre d'itérations nécessaires pour atteindre le seuil de dégradation souhaité.
+
+================================================================================
+A RENDRE APRES LES SEANCES
+
+Un dossier zip contenant:
+
+* le programme (dans des dossiers séparés si il y a plusieurs programmes/versions)
+
+* un document PDF (4 pages maximum) présentant:
+
+- les noms des participants
+- les objectifs du programme
+- les principes de traitement des réactions
+- le résultats des simulations
+- les pistes d'amélioration et d'extension
+
+Si besoin, le document peut contenir 1 ou 2 pages de plus en annexe (par exemple pour des courbes complémentaires). Et si vous avez fait plusieurs simulations différentes (localisation des composés, vitesses de diffusion différentes dans certaines zones, etc.) vous pouvez, si nécessaire, dépasser un peu ces limites de taille.
+
+Le zip est à envoyer par mail aux deux adresses suivantes:
+catherine.pothier@insa-lyon.fr
+christophe.rigotti@insa-lyon.fr
+et indiquant aussi dans le mail les noms des participants.
+
+================================================================================

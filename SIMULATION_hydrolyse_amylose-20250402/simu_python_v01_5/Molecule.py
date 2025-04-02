@@ -1,0 +1,1 @@
+# Framework for simulation of molecular diffusion - INSA# Catherine Pothier and Christophe Rigotticlass Molecule:    def __init__(self, x, y, species, size):        self.x = x        self.y = y        self.species = species        self.size = size                
